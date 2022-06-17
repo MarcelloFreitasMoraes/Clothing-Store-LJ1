@@ -2,6 +2,9 @@ import React from "react";
 import * as S from "./styles";
 
 export const Footer = () => {
+
+const text = 'Parcelamos em ate 10x sem juros'
+
   return (
     <S.Container>
       <S.Card>
@@ -11,7 +14,8 @@ export const Footer = () => {
           width={500}
           height={300}
         />
-        <S.CardTxt>Parcelamos em ate 10x sem juros</S.CardTxt>
+        <S.CardTxt>{text}</S.CardTxt>
+        
         <S.ImgCont>
           <S.Img
             src="https://elasq.com/wp-content/uploads/2022/03/inta2.png"
