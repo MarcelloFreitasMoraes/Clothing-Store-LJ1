@@ -40,11 +40,10 @@ export default function Contact () {
             height={40}
           />
         </S.ImgCont>
-                    {/* <div>
-                        <a className={style.whatsapp} href="https://web.whatsapp.com/send?phone=5511982620594" target="_blank"><FaWhatsappSquare /></a>
-                         <a className={style.face} href="https://www.facebook.com/mauricio.edson.1" target="_blank"><FaFacebookSquare /></a>
-                    </div> */}
                 </S.Redes>
+                <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.8547641927526!2d-46.401128585539!3d-23.71687997323771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6d20e5d6dfd5%3A0xb49a247f783d1d90!2sR.%20Manoel%20Sim%C3%B5es%2C%2029%20-%20Roncon%2C%20Ribeir%C3%A3o%20Pires%20-%20SP%2C%2009411-010!5e0!3m2!1spt-BR!2sbr!4v1655427214930!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
             </S.Container>
         </>
     )

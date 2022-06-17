@@ -9,7 +9,7 @@ export const Container = styled.section`
   /* color: #444444; */
   text-align: center;
   /* background-color: #3F7FBF; */
-  margin-top: 200px;
+  margin-top: 40px;
 `;
 
 export const Redes = styled.div`
