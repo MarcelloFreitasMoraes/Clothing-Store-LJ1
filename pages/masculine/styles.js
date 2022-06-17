@@ -1,8 +1,16 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Container = styled.div`
 width: 100%;
 margin: 10px auto;
+`
+export const Title = styled.div`
+margin-left: 100px;
+margin-top: 30px;
+`
+export const Text = styled.h1`
+text-transform: uppercase;
+
 `
 
 export const Card = styled.div`

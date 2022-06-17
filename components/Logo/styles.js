@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Logo = styled.div`
-  background: #fff2a6;
+  /* background: rgb(246, 225, 136); */
   min-height: 100vh;
   flex: 1;
   display: flex;

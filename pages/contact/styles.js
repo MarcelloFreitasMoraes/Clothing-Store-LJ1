@@ -31,4 +31,10 @@ export const Contact = styled.div`
   align-items: center;
 `;
 
-export const Ar = styled.div``;
+export const ImgCont = styled.div`
+display: flex;
+justify-content: space-around;
+`
+export const Img = styled.img`
+margin: 0 10px;
+`

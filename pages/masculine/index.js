@@ -5,9 +5,9 @@ export default function Masculine() {
   return (
     <>
       <S.Card>
-        <div>
-          <h1>Moda Maculina</h1>
-        </div>
+        <S.Title>
+          <S.Text>Moda Maculina</S.Text>
+        </S.Title>
 
         <S.RoupaTitle><S.SubTitle>
           Camisa Oversize Long Camiseta Masculina Swag Gola Canoa

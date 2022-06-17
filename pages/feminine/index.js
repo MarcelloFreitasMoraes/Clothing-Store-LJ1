@@ -2,12 +2,13 @@ import React from "react";
 import * as S from "./styles";
 
 export default function Femenine() {
+
   return (
-    <S.Content>
+    <>
       <S.Card>
-        <div>
-          <h1>Moda Feminina</h1>
-        </div>
+        <S.Title>
+          <S.Text>Moda Feminina</S.Text>
+        </S.Title>
 
         <S.RoupaTitle>
           <S.SubTitle>
@@ -117,6 +118,6 @@ export default function Femenine() {
           </S.BoxCard>
         </S.Box>
       </S.Card>
-    </S.Content>
+    </>
   );
 }

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const Container = styled.div`
-background: #fff2a6;
+background: rgb(190, 144, 74);
 `
 
 export const Card = styled.div`
@@ -17,5 +17,12 @@ export const CardTxt = styled.p`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  font-size: 18px;
+`
+export const ImgCont = styled.div`
+display: flex;
+justify-content: space-around;
+`
+export const Img = styled.img`
+margin: 0 10px;
 `
