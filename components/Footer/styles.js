@@ -7,10 +7,10 @@ width: 100%;
 `
 
 export const Card = styled.div`
+width: 100%;
+height: 200px;
   display: flex;
   flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
 `

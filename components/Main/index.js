@@ -5,15 +5,15 @@ export const Main = () => {
     return (
         
             <S.Main>
-                <div>
+                <S.SubMain>
                 <S.ImgMain className='img' src='banner2.jpg' alt="Vercel Logo"/> 
-                </div>
-                <div>
+                </S.SubMain>
+                <S.SubMain>
                 <S.ImgMain className='img' src='banner3.webp' alt="Vercel Logo"/> 
-                </div>
-                <div>
+                </S.SubMain>
+                <S.SubMain>
                 <S.ImgMain className='img' src='banner4.gif' alt="Vercel Logo"/> 
-                </div>
+                </S.SubMain>
             </S.Main>
         
     )

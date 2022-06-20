@@ -9,7 +9,7 @@ import * as S from "../styles/styles";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <S.Absolute>
       <Head>
         <title>Clothing Store</title>
         <meta name="description" content="Loja de Roupas" />
@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }) {
       </S.Contant>
       <Component {...pageProps} />
       <Footer />
-    </>
+    </S.Absolute>
   )
 }
 export default MyApp
