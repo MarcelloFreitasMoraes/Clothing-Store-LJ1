@@ -2,8 +2,10 @@ import styled from "styled-components";
 
 export const Main = styled.div`
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 30px;
-`;
+  margin-top: 20px;
+ `
+
+
+export const ImgMain = styled.img`
+width: 100%;
+`

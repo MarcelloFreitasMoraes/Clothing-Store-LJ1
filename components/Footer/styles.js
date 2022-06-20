@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
 background: rgb(190, 144, 74);
+width: 100%;
 `
 
 export const Card = styled.div`

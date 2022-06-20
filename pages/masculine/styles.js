@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const Container = styled.div`
 width: 100%;
 margin: 10px auto;
@@ -8,9 +9,13 @@ export const Title = styled.div`
 margin-left: 100px;
 margin-top: 30px;
 `
+
+export const Imag = styled.img`
+width: 360px;
+height: 400px;
+`
 export const Text = styled.h1`
 text-transform: uppercase;
-
 `
 
 export const Card = styled.div`
@@ -33,4 +38,9 @@ export const RoupaTitle = styled.div`
 margin-left: 60px;
 margin-top: 40px;
 margin-bottom:40px;
+`
+
+export const Description = styled.p`
+width: 50%;
+font-size: 16px;
 `

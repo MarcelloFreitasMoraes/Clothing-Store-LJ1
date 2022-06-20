@@ -5,16 +5,16 @@ export const Main = () => {
     return (
         
             <S.Main>
-                
-        <img className='img' src='homen.png' alt="Vercel Logo" width={400} height={500}/>
-        
-        
-        <img className='img' src='offnamorados.png' alt="Vercel Logo" width={400} height={500}/>
-        
-        
-        <img className='img' src='mulher.png' alt="Vercel Logo" width={400} height={500}/>
-        
-        </S.Main>
+                <div>
+                <S.ImgMain className='img' src='banner2.jpg' alt="Vercel Logo"/> 
+                </div>
+                <div>
+                <S.ImgMain className='img' src='banner3.webp' alt="Vercel Logo"/> 
+                </div>
+                <div>
+                <S.ImgMain className='img' src='banner4.gif' alt="Vercel Logo"/> 
+                </div>
+            </S.Main>
         
     )
 }
