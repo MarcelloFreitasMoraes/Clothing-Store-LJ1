@@ -1,6 +1,17 @@
 import styled from "styled-components";
 
 
+
+
+export const Content = styled.div`
+    max-width: 500px;
+    background-color: #fff;
+    height: 100%;
+    border-color: transparent;
+    margin-bottom: 30px;
+    display: flex;
+`
+
 export const Container = styled.div`
 width: 100%;
 margin: 10px auto;
@@ -41,6 +52,6 @@ margin-bottom:40px;
 `
 
 export const Description = styled.p`
-width: 50%;
+width: 80%;
 font-size: 16px;
 `

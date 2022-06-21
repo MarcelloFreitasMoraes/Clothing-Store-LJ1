@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-
 export const Absolute = styled.div`
 background: #ccc;
 width: 100%;
