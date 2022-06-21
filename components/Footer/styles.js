@@ -5,8 +5,7 @@ export const Container = styled.section`
   width: 100%;
   display: flex;
   text-align: center;
-  margin-top: 40px;
-`;
+`
 
 export const Contact = styled.div`
   display: flex;
@@ -33,7 +32,4 @@ margin-top: 40px;
 export const Img = styled.img`
 margin: 0 10px;
 `
-export const MapGoogle = styled.div`
-display: flex;
-justify-content: center;
-`
+
