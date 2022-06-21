@@ -14,10 +14,10 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Clothing Store</title>
         <meta name="description" content="Loja de Roupas" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
         <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css"></link>
           <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css"></link>
-          <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"></link>
+          
       </Head>
       <S.Contant>
       <Logo />

@@ -11,5 +11,5 @@ width: 100%;
 border: 2px none;
 `
 export const SubMain = styled.div`
-  margin-top: 20px 0 0 20px;
+  margin: 20px 0 0 20px;
  `
