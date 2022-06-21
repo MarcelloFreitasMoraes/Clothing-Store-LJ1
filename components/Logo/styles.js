@@ -5,6 +5,6 @@ export const Logo = styled.div`
    padding: 0 10px;
 `
 export const Img = styled.img`
-  width: 50%;
+  width: 220px;
 
 `

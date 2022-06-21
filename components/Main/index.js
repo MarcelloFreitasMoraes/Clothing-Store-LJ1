@@ -16,6 +16,7 @@ export const Main = () => {
                 <S.ImgMain src='banner4.gif' alt="Vercel Logo"/> 
                 </S.SubMain>
                 <div>
+                    <S.CredCards>Aceitamos Todas esses Formas de Pagamentos e parcelamos tudo em até 10x sem juros</S.CredCards>
                     <img  src='cardtodos.png' alt="Vercel Logo"/>
                 </div>
             </S.Main>
