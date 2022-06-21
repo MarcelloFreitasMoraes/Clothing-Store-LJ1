@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import * as S from './styles'
 
@@ -14,6 +15,9 @@ export const Main = () => {
                 <S.SubMain>
                 <S.ImgMain src='banner4.gif' alt="Vercel Logo"/> 
                 </S.SubMain>
+                <div>
+                    <img  src='cardtodos.png' alt="Vercel Logo"/>
+                </div>
             </S.Main>
         
     )
