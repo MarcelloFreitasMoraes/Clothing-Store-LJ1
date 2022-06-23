@@ -16,7 +16,13 @@ color: rgb(190, 144, 74);
 background: #000;
 padding: 10px 10px;
  `
+export const Cards = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+`
+
 export const ImgCards = styled.img`
-width: 30%;
-margin: 0 500px;
+width: 32rem;
+/* margin: 0 700px; */
 `

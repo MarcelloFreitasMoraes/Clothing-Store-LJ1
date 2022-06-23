@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import * as S from './styles'
-// import { ProdutosMen } from '../Produtosmen';
+import  {ProdutosMan}  from '../ProdutosMan';
 export const Main = () => {
     return (
         
@@ -15,18 +15,18 @@ export const Main = () => {
                 <S.ImgMain src='banner5.webp' alt="Vercel Logo"/> 
                 </S.SubMain>
                 
-                {/* <div>
-                <ProdutosMen/>
-                </div> */}
+                <div>
+                <ProdutosMan/>
+                </div>
 
                 <S.SubMain>
                 <S.ImgMain src='banner4.gif' alt="Vercel Logo"/> 
                 </S.SubMain>
 
-                <div>
+                <S.Cards>
                     <S.CredCards>Aceitamos Todas esses Formas de Pagamentos e parcelamos tudo em até 10x sem juros</S.CredCards>
                     <S.ImgCards  src='cardtodos.png' alt="Vercel Logo"/>
-                </div>
+                </S.Cards>
                 
             </S.Main>
         
