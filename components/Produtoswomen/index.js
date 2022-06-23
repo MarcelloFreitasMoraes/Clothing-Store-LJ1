@@ -5,49 +5,42 @@ import * as S from "./styles";
 import axios from "axios";
 
 export const ProdutosWomen = () => {
-    const [resposta, setResposta] = useState([]);
+  const [resposta, setResposta] = useState([]);
 
-    useEffect(() => {
-      axios.get('https://clothing-store2022-default-rtdb.firebaseio.com/roupas/women.json')
-        .then(function (response) {
-          setResposta(response?.data);
-        }
-        )
-    }, [])
-  
-  
-    console.log(resposta, 'resposta')
-    return (
-           <S.Container>
-             <S.Card>
+  useEffect(() => {
+    axios.get('https://clothing-store2022-default-rtdb.firebaseio.com/roupas/women.json')
+      .then(function (response) {
+        setResposta(response?.data);
+      }
+      )
+  }, [])
+
+
+  console.log(resposta, 'resposta')
+  return (
+    <S.Container>
+      <S.Card>
         <S.Title>
-          <S.Text>Excluisivas</S.Text>
+          <S.Text>Moda Femininas Exclusivos</S.Text>
         </S.Title>
 
-        {resposta && Object?.values(resposta?.roupas).map((item) => {
+        {resposta && Object.values(resposta).map((item) => {
           return (
             <>
-              <S.RoupaTitle><S.SubTitle>
-                {item.roupa}
-              </S.SubTitle></S.RoupaTitle>
               <S.Box>
-                <S.Imag src={item.img}                      
+                <S.Imag src={item.img}
                 />
-
                 <S.BoxCard>
                   <h2></h2>
                   <br />
-                  <S.Description>{categoria}</S.Description>
-                  <br />
                   <p>{item.roupa}</p>
                   <p><span>{item.valor}</span></p>
-
                 </S.BoxCard>
               </S.Box>
             </>
           )
         })}
       </S.Card>
-           </S.Container>
-    )
+    </S.Container>
+  )
 }

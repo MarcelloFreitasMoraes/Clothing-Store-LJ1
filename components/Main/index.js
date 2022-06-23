@@ -2,6 +2,7 @@
 import React from 'react';
 import * as S from './styles'
 import  {ProdutosMan}  from '../ProdutosMan';
+import { ProdutosWomen } from '../Produtoswomen';
 export const Main = () => {
     return (
         
@@ -10,6 +11,10 @@ export const Main = () => {
                 <S.SubMain>
                 <S.ImgMain src='banner2.jpg' alt="Vercel Logo"/> 
                 </S.SubMain>
+
+                <div>
+                <ProdutosWomen/>
+                </div>
 
                 <S.SubMain>
                 <S.ImgMain src='banner5.webp' alt="Vercel Logo"/> 

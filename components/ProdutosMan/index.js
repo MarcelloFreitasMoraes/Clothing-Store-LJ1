@@ -18,36 +18,33 @@ export const ProdutosMan = () => {
 
   console.log(resposta, 'resposta')
   return (
-      <S.Container>
-        {/* <S.Card>
-          <S.Title>
-            <S.Text>Moda Masculina Exclusivos</S.Text>
-          </S.Title>
+    <S.Container>
+      <S.Card>
+        <S.Title>
+          <S.Text>Moda Masculina Exclusivos</S.Text>
+        </S.Title>
 
-          {resposta && Object.values(resposta?.men).map((item) => {
-            return (
-              <>
-                <S.RoupaTitle><S.SubTitle>
-                  {item.roupa}
-                </S.SubTitle></S.RoupaTitle>
-                <S.Box>
-                  <S.Imag src={item.img}
-                  />
+        {resposta && Object.values(resposta).map((item) => {
+          return (
+            <>
+              <S.Box>
+                <S.Imag src={item.img}
+                />
 
-                  <S.BoxCard>
-                    <h2></h2>
-                    <br />
-                    <S.Description>{categoria}</S.Description>
-                    <br />
-                    <p>{item.roupa}</p>
-                    <p><span>{item.valor}</span></p>
+                <S.BoxCard>
+                  <h2></h2>
+                  <br />
+                  {/* <S.Description>{categoria}</S.Description> */}
+                  <br />
+                  <p>{item.roupa}</p>
+                  <p><span>{item.valor}</span></p>
 
-                  </S.BoxCard>
-                </S.Box>
-              </>
-            )
-          })}
-        </S.Card> */}
-      </S.Container>
+                </S.BoxCard>
+              </S.Box>
+            </>
+          )
+        })}
+      </S.Card>
+    </S.Container>
   )
 }
