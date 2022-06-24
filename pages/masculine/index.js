@@ -23,7 +23,7 @@ export default function Masculine() {
   return (
     <S.Container>
         <S.Title>
-          <S.Text>Moda Femininas Exclusivos</S.Text>
+           <S.Text>Moda Masculinas</S.Text>
         </S.Title>
       <S.Card>
 

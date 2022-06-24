@@ -22,7 +22,7 @@ export default function Femenine() {
   return (
     <S.Container>
         <S.Title>
-          <S.Text>Moda Femininas Exclusivos</S.Text>
+          <S.Text>Moda Femininas</S.Text>
         </S.Title>
       <S.Card>
 
