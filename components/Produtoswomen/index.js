@@ -19,22 +19,24 @@ export const ProdutosWomen = () => {
   console.log(resposta, 'resposta')
   return (
     <S.Container>
-      <S.Card>
         <S.Title>
           <S.Text>Moda Femininas Exclusivos</S.Text>
         </S.Title>
+      <S.Card>
 
         {resposta && Object.values(resposta).map((item) => {
           return (
             <>
               <S.Box>
+                <S.BoxCard>
                 <S.Imag src={item.img}
                 />
-                <S.BoxCard>
-                  <h2></h2>
+                  <h2/>
                   <br />
                   <p>{item.roupa}</p>
+                  <br/>
                   <p><span>{item.valor}</span></p>
+                  <S.Comprar onClick={() => window.location.href='https://web.whatsapp.com/send?phone=5511945988406'}>Comprar</S.Comprar>
                 </S.BoxCard>
               </S.Box>
             </>

@@ -19,26 +19,25 @@ export const ProdutosMan = () => {
   console.log(resposta, 'resposta')
   return (
     <S.Container>
-      <S.Card>
         <S.Title>
           <S.Text>Moda Masculina Exclusivos</S.Text>
         </S.Title>
+      <S.Card>
 
         {resposta && Object.values(resposta).map((item) => {
           return (
             <>
               <S.Box>
-                <S.Imag src={item.img}
-                />
 
                 <S.BoxCard>
-                  <h2></h2>
-                  <br />
-                  {/* <S.Description>{categoria}</S.Description> */}
-                  <br />
+                <S.Imag src={item.img}
+                />
+                <h2/>
+                <br/>
                   <p>{item.roupa}</p>
-                  <p><span>{item.valor}</span></p>
-
+                  <br/>
+                  <p>{item.valor}<span></span></p>
+                  <S.Comprar onClick={() => window.location.href='https://web.whatsapp.com/send?phone=5511945988406'}>Comprar</S.Comprar>
                 </S.BoxCard>
               </S.Box>
             </>

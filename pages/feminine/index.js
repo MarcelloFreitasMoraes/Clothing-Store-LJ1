@@ -19,37 +19,31 @@ export default function Femenine() {
 
 
   return (
-    <>
-      <S.Card>
+    <S.Container>
         <S.Title>
-          <S.Text>Moda Femininas</S.Text>
+          <S.Text>Moda Femininas Exclusivos</S.Text>
         </S.Title>
+      <S.Card>
 
-        {resposta && Object?.values(resposta).map((item) => {
+        {resposta && Object.values(resposta).map((item) => {
           return (
             <>
-              <S.RoupaTitle><S.SubTitle>
-                {item.roupa}
-              </S.SubTitle></S.RoupaTitle>
               <S.Box>
-                <S.Imag src={item.img}
-                       
-                />
-
                 <S.BoxCard>
-                  <h2>DESCRIÇÃO DO PRODUTO</h2>
-                  <br />
-                  <S.Description>{item.descricao}</S.Description>
+                <S.Imag src={item.img}
+                />
+                  <h2/>
                   <br />
                   <p>{item.roupa}</p>
+                  <br/>
                   <p><span>{item.valor}</span></p>
-
+                  <S.Comprar onClick={() => window.location.href='https://web.whatsapp.com/send?phone=5511945988406'}>Comprar</S.Comprar>
                 </S.BoxCard>
               </S.Box>
             </>
           )
         })}
       </S.Card>
-    </>
-  );
+    </S.Container>
+  )
 }
