@@ -60,5 +60,4 @@ export const BoxCard = styled.div`
     box-shadow: rgb(0 0 0 / 20%) 0px 0px 2px 2px;
     border-radius: 0.9rem;
     margin-top: 30px;
-    padding: 0 10px;
 `

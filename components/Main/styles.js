@@ -15,6 +15,7 @@ font-size: 18px;
 color: rgb(190, 144, 74);
 background: #000;
 padding: 10px 10px;
+margin-bottom: 10px;
  `
 export const Cards = styled.div`
 display: flex;
@@ -24,5 +25,5 @@ align-items: center;
 
 export const ImgCards = styled.img`
 width: 32rem;
-/* margin: 0 700px; */
+margin-top: 10px;
 `

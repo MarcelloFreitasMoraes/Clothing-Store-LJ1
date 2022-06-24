@@ -12,6 +12,7 @@ export const Title = styled.div`
 display: flex;
 justify-content: center;
 margin: 30px;
+
 `
 
 export const Imag = styled.img`
@@ -21,6 +22,10 @@ height: 400px;
     border-radius: 0.9rem 0.9rem 0 0;
 `
 export const Text = styled.h1`
+text-transform: uppercase;
+`
+
+export const TextSub = styled.h1`
 text-transform: uppercase;
 `
 
@@ -40,7 +45,7 @@ export const Box = styled.div`
     flex-wrap: wrap;
 `
 export const Comprar = styled.button`
-    margin: -0px 0 5px 250px;
+    margin: 0px 0 5px 250px;
     border: 0px;
     border-radius: 32px;
     padding: 0.875rem 1rem;

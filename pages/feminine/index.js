@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import * as S from "./styles";
 import axios from "axios";
+import { ProdutosWomen } from "../../components/Produtoswomen";
 
 export default function Femenine() {
   const [resposta, setResposta] = useState([]);
@@ -44,6 +45,7 @@ export default function Femenine() {
           )
         })}
       </S.Card>
+      <ProdutosWomen/>
     </S.Container>
   )
 }

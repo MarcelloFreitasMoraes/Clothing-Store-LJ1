@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import * as S from "./styles";
 import axios from "axios";
+import { ProdutosMan } from "../../components/ProdutosMan";
 
 export default function Masculine() {
 
@@ -45,6 +46,7 @@ export default function Masculine() {
           )
         })}
       </S.Card>
+      <ProdutosMan/>
     </S.Container>
   )
 }

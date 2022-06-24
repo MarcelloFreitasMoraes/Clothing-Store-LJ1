@@ -32,4 +32,6 @@ margin-top: 40px;
 export const Img = styled.img`
 margin: 0 10px;
 `
-
+export const Link = styled.a`
+cursor: pointer;
+`
