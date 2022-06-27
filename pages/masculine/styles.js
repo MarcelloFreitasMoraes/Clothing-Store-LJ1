@@ -19,8 +19,16 @@ margin: 30px;
 export const Imag = styled.img`
 width: 360px;
 height: 400px;
-    margin-top: -1px;
-    border-radius: 0.9rem 0.9rem 0 0;
+margin-top: -1px;
+border-radius: 0.9rem 0.9rem 0 0;
+max-width: 100%;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+
+:hover {
+ -webkit-transform: scale(1.0);
+ transform: scale(1.0);
+}
 `
 export const OffPrmomo = styled.div`
 position: absolute;
@@ -39,10 +47,6 @@ margin-top: 15px;
 border-radius: 8px;
 `
 
-export const Vezes = styled.p`
-font-size: 14px;
-padding: 0 40px 0 0px;
-`
 export const Text = styled.h1`
 text-transform: uppercase;
 `
@@ -65,7 +69,7 @@ export const Box = styled.div`
     display: flex;
     font-weight: bolder;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 `
 export const Comprar = styled.button`
     margin: 0px 0 5px 250px;

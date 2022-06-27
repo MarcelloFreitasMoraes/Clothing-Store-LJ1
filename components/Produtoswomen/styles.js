@@ -19,8 +19,16 @@ margin: 30px;
 export const Imag = styled.img`
 width: 360px;
 height: 400px;
-    margin-top: -1px;
-    border-radius: 0.9rem 0.9rem 0 0;
+margin-top: -1px;
+border-radius: 0.9rem 0.9rem 0 0;
+max-width: 100%;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+
+:hover {
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
 `
 export const OffPrmomo = styled.div`
 position: absolute;
