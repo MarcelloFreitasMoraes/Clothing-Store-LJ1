@@ -9,15 +9,13 @@ import * as S from "../styles/styles";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <S.Absolute>
+    <>
       <Head>
         <title>Clothing Store</title>
         <meta name="description" content="Loja de Roupas" />
         <link rel="icon" href="/logo.png" />
-        <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css"></link>
-          <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css"></link>
-          
       </Head>
+    <S.Absolute>
       <S.Contant>
       <Logo />
       <Menu />
@@ -25,6 +23,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
     </S.Absolute>
+    </>
   )
 }
 export default MyApp

@@ -21,6 +21,7 @@ export default function Femenine() {
 
   return (
     <S.Container>
+      <ProdutosWomen/>
         <S.Title>
           <S.Text>Moda Femininas</S.Text>
         </S.Title>
@@ -45,9 +46,6 @@ export default function Femenine() {
           )
         })}
       </S.Card>
-      <div>
-      <ProdutosWomen/>
-      </div>
     </S.Container>
   )
 }

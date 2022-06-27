@@ -29,7 +29,7 @@ export const Main = () => {
                 <ProdutosMan/>
                 </div>
 
-                <a href='/feminine#promocao'>
+                <a href='/feminine#vip'>
                 <S.SubMain>
                 <S.ImgMain src='banner4.gif' alt="Vercel Logo"/>
                 </S.SubMain></a>

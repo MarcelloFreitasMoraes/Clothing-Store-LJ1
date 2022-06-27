@@ -22,6 +22,7 @@ export default function Masculine() {
 
   return (
     <S.Container>
+      <ProdutosMan/>
         <S.Title>
            <S.Text>Moda Masculinas</S.Text>
         </S.Title>
@@ -48,7 +49,6 @@ export default function Masculine() {
           )
         })}
       </S.Card>
-      <ProdutosMan/>
     </S.Container>
   )
 }

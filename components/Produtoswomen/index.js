@@ -20,7 +20,7 @@ export const ProdutosWomen = () => {
   return (
     <S.Container>
         <S.Title>
-          <S.Text   id='promocao'>Moda Femininas Exclusivos</S.Text>
+          <S.Text  id='vip'>Moda Femininas Exclusivos</S.Text>
         </S.Title>
       <S.Card>
 
