@@ -6,7 +6,6 @@ import { Logo } from '../components/Logo'
 import { Footer } from '../components/Footer'
 import { Menu } from '../components/Menu'
 import * as S from "../styles/styles";
-import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (

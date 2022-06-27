@@ -45,7 +45,9 @@ export default function Femenine() {
           )
         })}
       </S.Card>
+      <div>
       <ProdutosWomen/>
+      </div>
     </S.Container>
   )
 }

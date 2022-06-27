@@ -27,16 +27,17 @@ export const ProdutosMan = () => {
         {resposta && Object.values(resposta).map((item) => {
           return (
             <>
-              <S.Box>
-
+             <S.Box>
                 <S.BoxCard>
+                  <S.OffPrmomo>
+                  <S.Promo>{item.promocao}</S.Promo>
+                  </S.OffPrmomo>
                 <S.Imag src={item.img}
                 />
-                <h2/>
-                <br/>
+                  <br />
                   <p>{item.roupa}</p>
                   <br/>
-                  <p>{item.valor}<span></span></p>
+                  <p><span>{item.valor}</span></p>
                   <S.Comprar onClick={() => window.location.href='https://web.whatsapp.com/send?phone=5511945988406'}>Comprar</S.Comprar>
                 </S.BoxCard>
               </S.Box>

@@ -5,6 +5,7 @@ export const Container = styled.section`
   width: 100%;
   display: flex;
   text-align: center;
+  width: 100%;
 `
 
 export const Contact = styled.div`

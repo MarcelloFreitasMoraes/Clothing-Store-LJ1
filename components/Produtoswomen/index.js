@@ -20,7 +20,7 @@ export const ProdutosWomen = () => {
   return (
     <S.Container>
         <S.Title>
-          <S.Text>Moda Femininas Exclusivos</S.Text>
+          <S.Text   id='promocao'>Moda Femininas Exclusivos</S.Text>
         </S.Title>
       <S.Card>
 
@@ -29,9 +29,11 @@ export const ProdutosWomen = () => {
             <>
               <S.Box>
                 <S.BoxCard>
+                  <S.OffPrmomo>
+                  <S.Promo>{item.promocao}</S.Promo>
+                  </S.OffPrmomo>
                 <S.Imag src={item.img}
                 />
-                  <h2/>
                   <br />
                   <p>{item.roupa}</p>
                   <br/>

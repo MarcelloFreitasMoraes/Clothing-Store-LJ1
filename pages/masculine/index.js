@@ -39,6 +39,8 @@ export default function Masculine() {
                   <p>{item.roupa}</p>
                   <br/>
                   <p><span>{item.valor}</span></p>
+                  <br/>
+                  <S.Vezes>10x sem juros</S.Vezes>
                   <S.Comprar onClick={() => window.location.href='https://web.whatsapp.com/send?phone=5511945988406'}>Comprar</S.Comprar>
                 </S.BoxCard>
               </S.Box>
