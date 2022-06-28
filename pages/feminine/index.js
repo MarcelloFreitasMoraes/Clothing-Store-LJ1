@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import * as S from "./styles";
 import axios from "axios";
 import { ProdutosWomen } from "../../components/Produtoswomen";
+import { ButtonComprar } from "../../components/Button";
 
 export default function Femenine() {
   const [resposta, setResposta] = useState([]);
@@ -38,16 +39,7 @@ export default function Femenine() {
                     <p>{item.roupa}</p>
                     <p>{item.valor}</p>
                     <p>{item.categoria}</p>
-                    <S.ContButton>
-                      <S.Comprar
-                        onClick={() =>
-                          (window.location.href =
-                            "https://web.whatsapp.com/send?phone=5511945988406")
-                        }
-                      >
-                        Comprar
-                      </S.Comprar>
-                    </S.ContButton>
+                    <ButtonComprar/>
                   </S.BoxCard>
                 </S.Box>
               </>

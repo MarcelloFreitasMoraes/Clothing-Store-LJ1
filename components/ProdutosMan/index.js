@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import * as S from "./styles";
 import axios from "axios";
+import { ButtonComprar } from '../Button'
 
 export const ProdutosMan = () => {
   const [resposta, setResposta] = useState([]);
@@ -38,16 +39,7 @@ export const ProdutosMan = () => {
                     <p>{item.roupa}</p>
                     <p>{item.valor}</p>
                     <p>{item.categoria}</p>
-                    <S.ContButton>
-                      <S.Comprar
-                        onClick={() =>
-                          (window.location.href =
-                            "https://web.whatsapp.com/send?phone=5511945988406")
-                        }
-                      >
-                        Comprar
-                      </S.Comprar>
-                    </S.ContButton>
+                   <ButtonComprar/>
                   </S.BoxCard>
                 </S.Box>
               </>
