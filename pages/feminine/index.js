@@ -17,12 +17,12 @@ export default function Femenine() {
       });
   }, []);
 
-  console.log(resposta, "resposta");
 
   return (
     <S.Container>
+        <S.TextBanner>Moda Feminina</S.TextBanner>
       <S.BannerDiv>
-        <S.BannerF src="https://img.irroba.com.br/filters:fill(transparent):quality(95)/seltenbr/catalog/banners/categoria/banner-categoria-moda-feminina.png" alt=""/>
+        <S.BannerF src="https://moikana.vteximg.com.br/arquivos/ids/155491/banner-moda.jpg?v=636371152658330000" alt=""/>
       </S.BannerDiv>
       <ProdutosWomen />
       <S.Card>
@@ -35,14 +35,9 @@ export default function Femenine() {
                     <S.WidImg>
                       <S.Imag src={item.img} />
                     </S.WidImg>
-
-                    <h2 />
-                    <br />
                     <p>{item.roupa}</p>
-                    <br />
-                    <p>
-                      <span>{item.valor}</span>
-                    </p>
+                    <p>{item.valor}</p>
+                    <p>{item.categoria}</p>
                     <S.ContButton>
                       <S.Comprar
                         onClick={() =>

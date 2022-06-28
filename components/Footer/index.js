@@ -11,13 +11,13 @@ export const Footer = () => {
       <S.Container >
              <S.Contact>
           <div>
-            <h1>Contatos</h1><br/>
-            <p>loja: (+55) 11 94598-8406</p><br/>
+            <h1>Contatos</h1>
+            <p>loja: (+55) 11 94598-8406</p>
             <p>Reclamação: 0800 000 000</p>
           </div>
           <div>
-            <h1>Horário de Atendimento</h1><br/>
-            <p>Segunda à Sábado das 8h às 18h</p><br/>
+            <h1>Horário de Atendimento</h1>
+            <p>Segunda à Sábado das 8h às 18h</p>
             <p>Exceto Feriados</p>
           </div>
 

@@ -17,12 +17,11 @@ export const ProdutosMan = () => {
       });
   }, []);
 
-  console.log(resposta, "resposta");
   return (
     <S.Container>
-      <S.Title>
-        <S.Text>Promoção</S.Text>
-      </S.Title>
+      <S.PromoBanner>
+      <S.Promocao src='https://sindespe.org.br/portal/wp-content/uploads/2020/12/promo%C3%A7%C3%A3o.png' id="vip"></S.Promocao>
+      </S.PromoBanner>
       <S.Card>
         {resposta &&
           Object.values(resposta).map((item) => {
@@ -36,13 +35,9 @@ export const ProdutosMan = () => {
                     <S.WidImg>
                       <S.Imag src={item.img} />
                     </S.WidImg>
-
-                    <br />
                     <p>{item.roupa}</p>
-                    <br />
-                    <p>
-                      <span>{item.valor}</span>
-                    </p>
+                    <p>{item.valor}</p>
+                    <p>{item.categoria}</p>
                     <S.ContButton>
                       <S.Comprar
                         onClick={() =>

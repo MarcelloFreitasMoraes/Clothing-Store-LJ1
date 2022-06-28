@@ -35,7 +35,7 @@ export const Main = () => {
                 </div></a>
 
                 <S.Cards>
-                    <S.CredCards>Aceitamos Todas esses Formas de Pagamentos e parcelamos tudo em até 10x sem juros</S.CredCards>
+                    <S.CredCards>Aceitamos Todas esses Formas de Pagamentos e parcelamos tudo em até 6x sem juros</S.CredCards>
                     <S.ImgCards  src='cardtodos.png' alt="Vercel Logo"/>
                 </S.Cards>
                 

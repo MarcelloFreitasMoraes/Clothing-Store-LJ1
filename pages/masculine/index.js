@@ -17,9 +17,7 @@ export default function Masculine() {
       });
   }, []);
 
-  console.log(resposta, "resposta");
-
-  return (
+   return (
     <S.Container>
       <S.Title>
         <S.BannerM src='https://benoliel.vteximg.com.br/arquivos/ids/156251/banner%20moda%20masculina.png?v=637440114094000000' alt=""/>
@@ -35,13 +33,9 @@ export default function Masculine() {
                     <S.WidImg>
                       <S.Imag src={item.img} />
                     </S.WidImg>
-
-                    <br />
                     <p>{item.roupa}</p>
-                    <br />
-                    <p>
-                      <span>{item.valor}</span>
-                    </p>
+                    <p>{item.valor}</p>
+                    <p>{item.categoria}</p>
                     <S.ContButton>
                       <S.Comprar
                         onClick={() =>

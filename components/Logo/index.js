@@ -5,7 +5,9 @@ export const Logo = () => {
     return (
         
         <S.Logo>
+            <a href='/'>
         <S.Img src='logo.png'/>
+        </a>
         </S.Logo>
         
     )

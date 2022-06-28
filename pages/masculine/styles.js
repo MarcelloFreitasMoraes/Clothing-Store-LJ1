@@ -67,7 +67,8 @@ export const ContButton = styled.div`
 export const Comprar = styled.button`
   border: 0px;
   border-radius: 32px;
-  padding: 20px 60px;
+  padding: 10px 30px;
+  margin-bottom: 10px;
   font-size: 20px;
   font-family: 'Alfa Slab One', cursive;
   color: rgb(190, 144, 74);

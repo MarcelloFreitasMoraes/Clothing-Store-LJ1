@@ -14,6 +14,7 @@ export const Title = styled.div`
   justify-content: center;
   margin: 30px;
 `;
+
 export const WidImg = styled.div`
   overflow: hidden;
   display: flex;
@@ -54,12 +55,7 @@ export const Promo = styled.p`
   border-radius: 8px;
 `;
 
-export const Text = styled.h1`
-  text-transform: uppercase;
-`;
-
-export const TextSub = styled.h1`
-  text-transform: uppercase;
+export const Promocao = styled.img`
 `;
 
 export const Card = styled.div`
@@ -85,7 +81,8 @@ export const ContButton = styled.div`
 export const Comprar = styled.button`
   border: 0px;
   border-radius: 32px;
-  padding: 20px 60px;
+  padding: 10px 30px;
+  margin-bottom: 10px;
   font-size: 20px;
   font-family: 'Alfa Slab One', cursive;
   color: rgb(190, 144, 74);

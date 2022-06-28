@@ -9,11 +9,14 @@ export const Container = styled.div`
   width: 100%;
 `;
 
-export const Title = styled.div`
+export const PromoBanner = styled.div`
   display: flex;
   justify-content: center;
-  margin: 30px;
 `;
+
+export const Promocao = styled.img`
+`;
+
 export const WidImg = styled.div`
   overflow: hidden;
   display: flex;
@@ -87,7 +90,8 @@ export const ContButton = styled.div`
 export const Comprar = styled.button`
   border: 0px;
   border-radius: 32px;
-  padding: 20px 60px;
+  padding: 10px 30px;
+  margin-bottom: 10px;
   font-size: 20px;
   font-family: 'Alfa Slab One', cursive;
   color: rgb(190, 144, 74);
