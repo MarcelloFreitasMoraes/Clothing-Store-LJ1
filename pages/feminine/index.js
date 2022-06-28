@@ -21,10 +21,10 @@ export default function Femenine() {
 
   return (
     <S.Container>
+      <S.BannerDiv>
+        <S.BannerF src="https://img.irroba.com.br/filters:fill(transparent):quality(95)/seltenbr/catalog/banners/categoria/banner-categoria-moda-feminina.png" alt=""/>
+      </S.BannerDiv>
       <ProdutosWomen />
-      <S.Title>
-        <S.Text>Moda Femininas</S.Text>
-      </S.Title>
       <S.Card>
         {resposta &&
           Object.values(resposta).map((item) => {

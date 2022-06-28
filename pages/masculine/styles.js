@@ -4,15 +4,15 @@ export const Container = styled.div`
   box-sizing: border-box;
   position: relative;
   min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
   width: 100%;
 `;
-
+export const BannerM = styled.img`
+  width: 100%;
+  margin: 0 auto;
+`;
 export const Title = styled.div`
   display: flex;
   justify-content: center;
-  margin: 30px;
 `;
 export const WidImg = styled.div`
   overflow: hidden;
@@ -36,9 +36,7 @@ export const Imag = styled.img`
     transform: scale(1.2);
   }
 `;
-export const Text = styled.h1`
-  text-transform: uppercase;
-`;
+
 
 export const TextSub = styled.h1`
   text-transform: uppercase;

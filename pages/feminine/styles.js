@@ -4,15 +4,13 @@ export const Container = styled.div`
   box-sizing: border-box;
   position: relative;
   min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
   width: 100%;
 `;
 
-export const Title = styled.div`
+export const BannerDiv = styled.div`
   display: flex;
   justify-content: center;
-  margin: 30px;
+  margin: 0 auto;
 `;
 export const WidImg = styled.div`
   overflow: hidden;
@@ -37,9 +35,8 @@ export const Imag = styled.img`
   }
 `;
 
-export const Text = styled.h1`
-  text-transform: uppercase;
-`;
+export const BannerF = styled.img`
+width: 100%`;
 
 export const TextSub = styled.h1`
   text-transform: uppercase;

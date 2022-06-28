@@ -21,7 +21,7 @@ export const ProdutosMan = () => {
   return (
     <S.Container>
       <S.Title>
-        <S.Text>Moda Masculina Exclusivos</S.Text>
+        <S.Text>Promoção</S.Text>
       </S.Title>
       <S.Card>
         {resposta &&
