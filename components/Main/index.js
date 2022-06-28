@@ -9,30 +9,30 @@ export const Main = () => {
         
             <S.Main>
 
-                <S.SubMain>
+                <div>
                 <a href='/feminine'>
                 <S.ImgMain src='banner2.jpg' alt="Vercel Logo"/> 
                 </a>
-                </S.SubMain>
+                </div>
 
                 <div>
                 <ProdutosWomen/>
                 </div>
 
-                <S.SubMain>
+                <S.Banner2>
                 <a href='/masculine'>
                 <S.ImgMain src='banner5.webp' alt="Vercel Logo"/> 
                 </a>
-                </S.SubMain>
+                </S.Banner2>
                 
                 <div>
                 <ProdutosMan/>
                 </div>
 
                 <a href='/feminine#vip'>
-                <S.SubMain>
+                <div>
                 <S.ImgMain src='banner4.gif' alt="Vercel Logo"/>
-                </S.SubMain></a>
+                </div></a>
 
                 <S.Cards>
                     <S.CredCards>Aceitamos Todas esses Formas de Pagamentos e parcelamos tudo em até 10x sem juros</S.CredCards>

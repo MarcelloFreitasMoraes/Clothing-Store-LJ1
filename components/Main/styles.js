@@ -7,7 +7,8 @@ export const Main = styled.div`
 export const ImgMain = styled.img`
 width: 100%;
 `
-export const SubMain = styled.div`
+export const Banner2 = styled.div`
+margin-top: 80px;
  `
 export const CredCards = styled.h2`
 text-align: center;
@@ -15,7 +16,7 @@ font-size: 18px;
 color: rgb(190, 144, 74);
 background: #000;
 padding: 10px 10px;
-margin-bottom: 10px;
+margin-bottom: 20px;
  `
 export const Cards = styled.div`
 display: flex;
@@ -25,5 +26,5 @@ align-items: center;
 
 export const ImgCards = styled.img`
 width: 32rem;
-margin-top: 10px;
+margin-top: 40px;
 `
