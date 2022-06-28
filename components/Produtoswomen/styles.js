@@ -15,6 +15,10 @@ justify-content: center;
 margin: 30px;
 
 `
+export const WidImg = styled.div`
+display: flex;
+justify-content: center;
+`
 
 export const Imag = styled.img`
 width: 360px;
@@ -32,6 +36,8 @@ transition: all 0.7s ease;
 `
 export const OffPrmomo = styled.div`
 position: absolute;
+z-index: 999;
+
 `
 
 export const Promo = styled.p`
@@ -63,19 +69,22 @@ export const Card = styled.div`
     margin: 30px 20px;
     padding: 0 20px;
     flex-wrap: wrap;
+    width: 1350px;
+    margin-left: 260px;
 `
 export const Box = styled.div`
     margin: 0 auto;
     display: flex;
     font-weight: bolder;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+`
+export const ContButton = styled.div`
+margin: 0 0 5px 0;
 `
 export const Comprar = styled.button`
-    margin: 0px 0 5px 250px;
     border: 0px;
     border-radius: 32px;
-    padding: 0.875rem 1rem;
+    padding: 20px 60px;
     color: rgb(190,144,74);
     z-index: 1;
     background-color: rgb(32, 32, 32);
@@ -91,4 +100,7 @@ export const BoxCard = styled.div`
     box-shadow: rgb(0 0 0 / 20%) 0px 0px 2px 2px;
     border-radius: 0.9rem;
     margin-top: 30px;
+    overflow: hidden;
+    
+
 `

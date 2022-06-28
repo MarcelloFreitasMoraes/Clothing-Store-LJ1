@@ -22,10 +22,10 @@ export default function Masculine() {
 
   return (
     <S.Container>
-      <ProdutosMan/>
-        <S.Title>
-           <S.Text>Moda Masculinas</S.Text>
-        </S.Title>
+      <ProdutosMan />
+      <S.Title>
+        <S.Text>Moda Masculinas</S.Text>
+      </S.Title>
       <S.Card>
 
         {resposta && Object.values(resposta).map((item) => {
@@ -33,16 +33,18 @@ export default function Masculine() {
             <>
               <S.Box>
                 <S.BoxCard>
-                <S.Imag src={item.img}
-                />
-                  <h2/>
+                  <S.WidImg>
+                    <S.Imag src={item.img}
+                    />
+                  </S.WidImg>
+
                   <br />
                   <p>{item.roupa}</p>
-                  <br/>
+                  <br />
                   <p><span>{item.valor}</span></p>
-                  <br/>
-                  <S.Vezes>10x sem juros</S.Vezes>
-                  <S.Comprar onClick={() => window.location.href='https://web.whatsapp.com/send?phone=5511945988406'}>Comprar</S.Comprar>
+                  <S.ContButton>
+                  <S.Comprar onClick={() => window.location.href = 'https://web.whatsapp.com/send?phone=5511945988406'}>Comprar</S.Comprar>
+                  </S.ContButton>
                 </S.BoxCard>
               </S.Box>
             </>

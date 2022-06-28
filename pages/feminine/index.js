@@ -32,14 +32,19 @@ export default function Femenine() {
             <>
               <S.Box>
                 <S.BoxCard>
-                <S.Imag src={item.img}
+                  <S.WidImg>
+                  <S.Imag src={item.img}
                 />
+                  </S.WidImg>
+               
                   <h2/>
                   <br />
                   <p>{item.roupa}</p>
                   <br/>
                   <p><span>{item.valor}</span></p>
+                  <S.ContButton>
                   <S.Comprar onClick={() => window.location.href='https://web.whatsapp.com/send?phone=5511945988406'}>Comprar</S.Comprar>
+                  </S.ContButton>
                 </S.BoxCard>
               </S.Box>
             </>

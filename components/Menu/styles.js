@@ -5,8 +5,6 @@ export const Menu = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
-width: 100%;
-margin-right: 40px;
   `
 
 export const Link = styled.a`
@@ -22,5 +20,4 @@ border-radius: 6px;
 width: 100%;
 height: 50px;
 margin:10px;
-font-family: 'Bangers', cursive;
 `
