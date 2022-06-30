@@ -5,8 +5,8 @@ import * as S from "./styles";
 
 export default function Cadastro () {
 
-    const email = localStorage.getItem('usuario')
-    const senha = localStorage.getItem('senha')
+    const email = window.localStorage.getItem('usuario')
+    const senha = window.localStorage.getItem('senha')
     const users = () => {
 
     if (email === 'felipepaulino@fpr.com.br' && senha === '1234567') {
@@ -36,7 +36,7 @@ export default function Cadastro () {
     }
     return (
         <>
-            <S.Button><a onClick href="/login">LOGOUT</a></S.Button>
+            <S.Button><a onClick href='login'>LOGOUT</a></S.Button>
             {users()}
         </>
     )

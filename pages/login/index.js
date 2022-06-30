@@ -6,8 +6,8 @@ export default function Login() {
   const [senha, setSenha] = useState()
   
   const entrar = () => {
-    localStorage?.setItem('usuario', usuario)
-    localStorage?.setItem('senha', senha)
+    window.localStorage?.setItem('usuario', usuario)
+    window.localStorage?.setItem('senha', senha)
     window.location.href = '/cadastro'
   }
 
