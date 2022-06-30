@@ -8,8 +8,8 @@ export const ButtonComprar = () => {
             <S.ContButton>
                 <S.Comprar
                     onClick={() =>
-                    (window.location.href =
-                        "https://web.whatsapp.com/send?phone=5511945988406")
+                    (window.open
+                        ("https://web.whatsapp.com/send?phone=5511945988406"))
                     }
                 >
                     Comprar

@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import * as S from "./styles";
 import axios from "axios";
-import { ButtonComprar } from '../Button'
+import { ButtonComprar } from '../Button';
 
 export const ProdutosMan = () => {
   const [resposta, setResposta] = useState([]);
@@ -21,7 +21,7 @@ export const ProdutosMan = () => {
   return (
     <S.Container>
       <S.PromoBanner>
-      <S.Promocao src='https://sindespe.org.br/portal/wp-content/uploads/2020/12/promo%C3%A7%C3%A3o.png' id="vip"></S.Promocao>
+        <S.Promocao src='https://sindespe.org.br/portal/wp-content/uploads/2020/12/promo%C3%A7%C3%A3o.png' id="vip"></S.Promocao>
       </S.PromoBanner>
       <S.Card>
         {resposta &&
@@ -39,7 +39,7 @@ export const ProdutosMan = () => {
                     <p>{item.roupa}</p>
                     <p>{item.valor}</p>
                     <p>{item.categoria}</p>
-                   <ButtonComprar/>
+                    <ButtonComprar />
                   </S.BoxCard>
                 </S.Box>
               </>
