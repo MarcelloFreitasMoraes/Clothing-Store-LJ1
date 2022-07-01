@@ -93,6 +93,7 @@ export default function Cadastro () {
    
     return (
         <>
+        
         <S.Container>
             <h2>Lista de Roupas</h2>
             {resposta &&
