@@ -93,7 +93,7 @@ export default function Cadastro () {
    
     return (
         <>
-        
+
         <S.Container>
             <h2>Lista de Roupas</h2>
             {resposta &&
@@ -117,6 +117,8 @@ export default function Cadastro () {
                 <label>Cor:</label><input onChange={(e) => setCor(e.target.value)} /><br />
                 <button onClick={(e) => { e.preventDefault(); cadastro() }}>Cadastrar</button>
             </S.Form>
+            <S.Button href='/login'>LOGOUT</S.Button>
+            {users()}
             </S.Container>
         </>
     );
