@@ -37,6 +37,16 @@ border: 2px solid  #000;
   background: #ccc;
 `
 
-// export const Input = styled.input`
-// width: 80px;
-// `
+export const Container = styled.div`
+   padding: 0 2rem;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+`
+export const Form = styled.form`
+display: flex;
+justify-content: center;
+ align-items: center;
+ flex-direction: column;
+`
