@@ -100,14 +100,16 @@ export default function Cadastro () {
           Object.values(resposta).map((item) => {
                 
                 return (
-                    <div key={index}>
-                       <p> {roupa[1].tipo}</p>
-                       <p>{roupa[1].valor}</p> 
-                       <p>{roupa[1].cor}</p>
+                    <>
+                    <div>
+                       <p> {item.tipo}</p>
+                       <p>{item.valor}</p> 
+                       <p>{item.cor}</p>
                         <input onChange={(e) => setEditando(e.target.value)} />
                         <button onClick={() => deletar(roupa[0])}>Excluir</button>
                         <button onClick={() => editar(roupa[0])}>Editar</button>
                     </div>
+                    </>
                 )
             })}
             <h2>Cadastrar nova roupa</h2>
