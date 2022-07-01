@@ -5,6 +5,7 @@ import * as S from "./styles";
 import axios from "axios";
 import { ProdutosMan } from "../../components/ProdutosMan";
 import { ButtonComprar } from "../../components/Button";
+import { Container } from "../../components/Container";
 
 export default function Masculine() {
   const [resposta, setResposta] = useState([]);
@@ -19,10 +20,11 @@ export default function Masculine() {
   }, []);
 
    return (
-    <S.Container>
-      <S.Title>
+    <>
+      <S.BannerDiv>
         <S.BannerM src='https://benoliel.vteximg.com.br/arquivos/ids/156251/banner%20moda%20masculina.png?v=637440114094000000' alt=""/>
-      </S.Title>
+      </S.BannerDiv>
+      <Container>
       <ProdutosMan />
       <S.Card>
         {resposta &&
@@ -44,6 +46,7 @@ export default function Masculine() {
             );
           })}
       </S.Card>
-    </S.Container>
+      </Container>
+    </>
   );
 }

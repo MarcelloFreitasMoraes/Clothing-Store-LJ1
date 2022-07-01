@@ -28,7 +28,6 @@ export const Imag = styled.img`
   height: 400px;
   margin-top: -1px;
   border-radius: 0.9rem 0.9rem 0 0;
-  max-width: 100%;
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 
@@ -66,8 +65,6 @@ export const Card = styled.div`
   margin: 30px 20px;
   padding: 0 20px;
   flex-wrap: wrap;
-  width: 1350px;
-  margin-left: 260px;
 `;
 export const Box = styled.div`
   margin: 0 auto;

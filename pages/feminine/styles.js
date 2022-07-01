@@ -1,11 +1,5 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  box-sizing: border-box;
-  position: relative;
-  min-height: 1px;
-  width: 100%;
-`;
 
 export const BannerDiv = styled.div`
   display: flex;
@@ -15,7 +9,7 @@ export const TextBanner = styled.p`
   font-family: 'Rubik Mono One', sans-serif;
   color: #E2684B;
   font-size: 60px;
-  margin: 30px 20px 0 50px;
+  margin: 30px 20px 0 40px;
   position: absolute;
 `
 
@@ -43,7 +37,8 @@ export const Imag = styled.img`
 `;
 
 export const BannerF = styled.img`
-width: 100%`;
+width:100%;
+`;
 
 export const TextSub = styled.h1`
   text-transform: uppercase;
@@ -57,8 +52,7 @@ export const Card = styled.div`
   margin: 30px 20px;
   padding: 0 20px;
   flex-wrap: wrap;
-  width: 1350px;
-  margin-left: 260px;
+  
 `;
 export const Box = styled.div`
   margin: 0 auto;

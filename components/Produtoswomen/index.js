@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import * as S from "./styles";
 import axios from "axios";
 import { ButtonComprar } from "../Button";
+import { Container } from "../Container";
 
 export const ProdutosWomen = () => {
   const [resposta, setResposta] = useState([]);
@@ -19,7 +20,7 @@ export const ProdutosWomen = () => {
   }, []);
 
   return (
-    <S.Container>
+    <Container>
       <S.Title>
         <S.Promocao src='https://sindespe.org.br/portal/wp-content/uploads/2020/12/promo%C3%A7%C3%A3o.png' id="vip"></S.Promocao>
       </S.Title>
@@ -46,6 +47,6 @@ export const ProdutosWomen = () => {
             );
           })}
       </S.Card>
-    </S.Container>
+    </Container>
   );
 };

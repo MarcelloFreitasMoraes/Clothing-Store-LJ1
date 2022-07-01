@@ -73,8 +73,6 @@ export const Card = styled.div`
   margin: 30px 20px;
   padding: 0 20px;
   flex-wrap: wrap;
-  width: 1350px;
-  margin-left: 260px;
 `;
 export const Box = styled.div`
   margin: 0 auto;

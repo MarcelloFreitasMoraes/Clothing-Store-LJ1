@@ -5,6 +5,7 @@ import * as S from "./styles";
 import axios from "axios";
 import { ProdutosWomen } from "../../components/Produtoswomen";
 import { ButtonComprar } from "../../components/Button";
+import { Container } from "../../components/Container";
 
 export default function Femenine() {
   const [resposta, setResposta] = useState([]);
@@ -20,11 +21,12 @@ export default function Femenine() {
 
 
   return (
-    <S.Container>
+<>
         <S.TextBanner>Moda Feminina</S.TextBanner>
       <S.BannerDiv>
         <S.BannerF src="https://moikana.vteximg.com.br/arquivos/ids/155491/banner-moda.jpg?v=636371152658330000" alt=""/>
       </S.BannerDiv>
+          <Container>
       <ProdutosWomen />
       <S.Card>
         {resposta &&
@@ -46,6 +48,7 @@ export default function Femenine() {
             );
           })}
       </S.Card>
-    </S.Container>
+    </Container>
+    </>
   );
 }

@@ -7,6 +7,7 @@ import { Footer } from "../components/Footer";
 import { Menu } from "../components/Menu";
 import * as S from "../styles/styles";
 import "../styles/globals.css";
+import {Container} from '../components/Container'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -18,8 +19,12 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <S.Absolute>
         <S.Contant>
+        <Container>
+          <S.Box>
           <Logo />
           <Menu />
+          </S.Box>
+        </Container>
         </S.Contant>
         <Component {...pageProps} />
         <Footer />

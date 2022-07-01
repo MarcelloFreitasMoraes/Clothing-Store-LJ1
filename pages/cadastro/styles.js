@@ -7,7 +7,7 @@ import styled from "styled-components";
 //   flex-direction: column;
 // `
 
-export const Button = styled.button`
+export const Button = styled.a`
   border: 0px;
   border-radius: 32px;
   padding: 10px 30px;
@@ -25,6 +25,8 @@ export const Button = styled.button`
 `
 
 export const Box = styled.div`
+display: flex;
+justify-content: center;
 border: 2px solid  #000;
   margin: 5px;
   padding: 10px;
