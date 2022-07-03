@@ -24,7 +24,7 @@ export default function Femenine() {
 <>
         <S.TextBanner>Moda Feminina</S.TextBanner>
       <S.BannerDiv>
-        <S.BannerF src="https://moikana.vteximg.com.br/arquivos/ids/155491/banner-moda.jpg?v=636371152658330000" alt=""/>
+        <S.BannerF src="https://moikana.vteximg.com.br/arquivos/ids/155491/banner-moda.jpg?v=636371152658330000" alt="banner"/>
       </S.BannerDiv>
           <Container>
       <ProdutosWomen />

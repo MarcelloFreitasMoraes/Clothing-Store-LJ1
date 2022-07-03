@@ -5,7 +5,7 @@ export const ButtonLogout = () => {
   return (
     <>
       <S.ContButton>
-        <S.Button href="/login">LOGOUT</S.Button>
+        <S.Button href="/admin">LOGOUT</S.Button>
       </S.ContButton>
     </>
   );

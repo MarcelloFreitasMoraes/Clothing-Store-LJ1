@@ -22,7 +22,7 @@ export const ProdutosMan = () => {
   return (
     <Container>
       <S.PromoBanner>
-        <S.Promocao src='https://sindespe.org.br/portal/wp-content/uploads/2020/12/promo%C3%A7%C3%A3o.png' id="vip"></S.Promocao>
+        {/* <S.Promocao src='https://sindespe.org.br/portal/wp-content/uploads/2020/12/promo%C3%A7%C3%A3o.png' id="vip"></S.Promocao> */}
       </S.PromoBanner>
       <S.Card>
         {resposta &&

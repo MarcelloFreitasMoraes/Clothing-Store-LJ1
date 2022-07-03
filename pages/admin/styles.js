@@ -11,7 +11,7 @@ export const Button = styled.button`
   border: 0px;
   border-radius: 32px;
   padding: 10px 30px;
-  margin-bottom: 10px;
+  margin: 20px 0;
   font-size: 20px;
   font-family: 'Alfa Slab One', cursive;
   color: rgb(190, 144, 74);
