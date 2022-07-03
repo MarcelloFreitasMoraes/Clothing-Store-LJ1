@@ -6,7 +6,7 @@ export const Container = styled.section`
   display: flex;
   text-align: center;
   width: 100%;
-`
+`;
 
 export const Contact = styled.div`
   display: flex;
@@ -23,16 +23,16 @@ export const Redes = styled.div`
   align-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
-`
+`;
 
 export const ImgCont = styled.div`
-display: flex;
-justify-content: space-around;
-margin-top: 40px;
-`
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+`;
 export const Img = styled.img`
-margin: 0 10px;
-`
+  margin: 0 10px;
+`;
 export const Link = styled.a`
-cursor: pointer;
-`
+  cursor: pointer;
+`;

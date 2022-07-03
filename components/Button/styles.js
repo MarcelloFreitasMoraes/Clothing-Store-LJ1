@@ -10,7 +10,7 @@ export const Comprar = styled.button`
   padding: 10px 30px;
   margin-bottom: 10px;
   font-size: 20px;
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   color: rgb(190, 144, 74);
   z-index: 1;
   background-color: rgb(32, 32, 32);
