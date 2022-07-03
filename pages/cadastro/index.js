@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect } from "react";
 import { Container } from "../../components/Container";
-import { ButtonLogout} from '../../components/ButtonLogout'
+import { ButtonLogout } from "../../components/ButtonLogout";
 import * as S from "./styles";
 import PostDelete from "../../components/PostDelete";
 
@@ -21,17 +21,13 @@ export default function Cadastro() {
     if (email === "felipepaulino@fpr.com.br" && senha === "1234567") {
       return (
         <S.Box>
-          <h2>Felipe</h2>
-          <p>Admin</p>
-          <img src="" />
+          <h2>Felipe Admin</h2>
         </S.Box>
       );
     } else if (email === "marcelomoraes@fpr.com.br" && senha === "123456") {
       return (
         <S.Box>
-          <h2>Marcelo</h2>
-          <p>Admin</p>
-          <S.Img src="marcelo.jpeg" width={150} height={200} />
+          <h2>Marcelo Admin</h2>
         </S.Box>
       );
     } else {
@@ -39,17 +35,15 @@ export default function Cadastro() {
     }
   };
 
-  
-
   return (
     <>
       <Container>
-      <S.SectionButton>
-        <ButtonLogout/>
-        {users()}
+        <S.SectionButton>
+          <ButtonLogout />
+          {users()}
         </S.SectionButton>
         <S.Card>
-        <PostDelete/>
+          <PostDelete />
         </S.Card>
       </Container>
     </>

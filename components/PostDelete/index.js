@@ -58,10 +58,10 @@ export default function PostDelete() {
         <S.Title>Lista de Roupas</S.Title>
         <S.Card>
           {resposta &&
-            Object.values(resposta).map((item) => {
+            Object.values(resposta).map((item, index) => {
               return (
                 <>
-                  <div>
+                  <div key={index}>
                     <S.BoxCard>
                       <S.WidImg>
                         <S.Imag src={item.img} />
@@ -80,17 +80,18 @@ export default function PostDelete() {
         </S.Card>
         <S.Form>
           <h2>Cadastrar nova roupa</h2>
-          <label>Imagem:</label>
-          <input onChange={(e) => setImagem(e.target.value)} />
+          <S.SectionInp>
+          <S.Label>Imagem:</S.Label>
+          <S.Input onChange={(e) => setImagem(e.target.value)} />
           <br />
-          <label>Roupa:</label>
-          <input onChange={(e) => setRoupa(e.target.value)} />
+          <S.Label>Roupa:</S.Label>
+          <S.Input onChange={(e) => setRoupa(e.target.value)} />
           <br />
-          <label>Valor:</label>
-          <input onChange={(e) => setValor(e.target.value)} />
+          <S.Label>Valor:</S.Label>
+          <S.Input onChange={(e) => setValor(e.target.value)} />
           <br />
-          <label>Parcelas:</label>
-          <input onChange={(e) => setCategoria(e.target.value)} />
+          <S.Label>Parcelas:</S.Label>
+          <S.Input onChange={(e) => setCategoria(e.target.value)} />
           <br />
           <S.Button
             onClick={(e) => {
@@ -100,6 +101,7 @@ export default function PostDelete() {
           >
             Cadastrar
           </S.Button>
+          </S.SectionInp>
         </S.Form>
       </Container>
     </>
