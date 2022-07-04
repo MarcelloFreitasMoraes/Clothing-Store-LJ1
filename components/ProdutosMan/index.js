@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useState } from "react";
 import * as S from "./styles";
 import axios from "axios";
@@ -21,9 +19,6 @@ export const ProdutosMan = () => {
 
   return (
     <Container>
-      <S.PromoBanner>
-        {/* <S.Promocao src='https://sindespe.org.br/portal/wp-content/uploads/2020/12/promo%C3%A7%C3%A3o.png' id="vip"></S.Promocao> */}
-      </S.PromoBanner>
       <S.Card>
         {resposta &&
           Object.values(resposta).map((item) => {

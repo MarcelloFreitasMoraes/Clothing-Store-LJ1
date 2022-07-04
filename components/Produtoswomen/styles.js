@@ -9,12 +9,6 @@ export const Container = styled.div`
   width: 100%;
 `;
 
-export const Title = styled.div`
-  display: flex;
-  justify-content: center;
-  margin: 30px;
-`;
-
 export const WidImg = styled.div`
   overflow: hidden;
   display: flex;

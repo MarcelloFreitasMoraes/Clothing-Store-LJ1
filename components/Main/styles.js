@@ -28,3 +28,5 @@ export const ImgCards = styled.img`
   width: 32rem;
   margin-top: 10px;
 `;
+
+export const Link = styled.a``

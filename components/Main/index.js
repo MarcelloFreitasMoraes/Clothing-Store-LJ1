@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/no-html-link-for-pages */
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import * as S from "./styles";
 import { ProdutosMan } from "../ProdutosMan";
@@ -8,9 +6,9 @@ export const Main = () => {
   return (
     <S.Main>
       <div>
-        <a href="/feminine">
+        <S.Link href='/feminine'>
           <S.ImgMain src="banner2.jpg" alt="Vercel Logo" />
-        </a>
+        </S.Link>
       </div>
 
       <div>
@@ -18,20 +16,20 @@ export const Main = () => {
       </div>
 
       <S.Banner2>
-        <a href="/masculine">
+        <S.Link href="/masculine">
           <S.ImgMain src="banner5.webp" alt="Vercel Logo" />
-        </a>
+        </S.Link>
       </S.Banner2>
 
       <div>
         <ProdutosMan />
       </div>
 
-      <a href="/feminine#vip">
+      <S.Link href="/feminine#vip">
         <div>
           <S.ImgMain src="banner4.gif" alt="Vercel Logo" />
         </div>
-      </a>
+      </S.Link>
 
       <S.Cards>
         <S.CredCards>
