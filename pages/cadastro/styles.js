@@ -11,10 +11,7 @@ export const Box = styled.div`
   display: flex;
   align-items: center;
   text-align: center;
-`;
-
-export const Img = styled.img`
-  border-radius: 600px;
+  padding: 0 0 0 30px;
 `;
 
 export const Card = styled.div`

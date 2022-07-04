@@ -8,7 +8,6 @@ display: flex;
 `
 
 export const Button = styled.button`
-  border: 0px;
   border-radius: 32px;
   padding: 10px 30px;
   margin: 20px 0;
@@ -23,17 +22,6 @@ export const Button = styled.button`
     color: rgb(32, 32, 32);
   }
 `
-
-// export const Box = styled.div`
-// border: 2px solid  #000;
-//   margin: 5px;
-//   padding: 10px;
-//   flex-direction: column;
-//   display: flex;
-//   align-items: center;
-//   font-size: 20px;
-//   background: #ccc;
-// `
 
 export const Input = styled.input`
 width: 200px;

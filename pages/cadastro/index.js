@@ -14,6 +14,7 @@ export default function Cadastro() {
     if (typeof window !== "undefined") {
       setEmail(localStorage.getItem("usuario"));
       setSenha(localStorage.getItem("senha"));
+      
     }
   }, []);
 
@@ -25,6 +26,7 @@ export default function Cadastro() {
         </S.Box>
       );
     } else if (email === "marcelomoraes@fpr.com.br" && senha === "123456") {
+      
       return (
         <>
           <Container>
@@ -38,9 +40,12 @@ export default function Cadastro() {
         </>
       );
     } else {
-      ("Não existe esse usuario");
-    }
+        if (typeof window !== "undefined") {
+window.location.href='/admin'
+          
   };
+}
+  }
 
   return (
     <>

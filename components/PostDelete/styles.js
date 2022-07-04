@@ -10,6 +10,7 @@ export const Title = styled.h2`
   background: rgb(190, 144, 74);
   padding: 20px;
   border: 2px solid dashed #000000;
+  border-radius: 600px;
 `;
 
 export const Card = styled.div`
