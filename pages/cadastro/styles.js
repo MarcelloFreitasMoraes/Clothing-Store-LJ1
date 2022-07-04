@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SectionButton = styled.div`
   display: flex;
   justify-content: end;
-  margin: 30px;
+  margin-top: 30px;
   flex-direction: column;
 `;
 

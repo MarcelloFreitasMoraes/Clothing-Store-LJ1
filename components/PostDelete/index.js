@@ -55,7 +55,9 @@ export default function PostDelete() {
   return (
     <>
       <Container>
+        <S.BoxTitle>
         <S.Title>Lista de Roupas</S.Title>
+        </S.BoxTitle>
         <S.Card>
           {resposta &&
             Object.entries(resposta).map((item, index) => {

@@ -26,12 +26,19 @@ export default function Cadastro() {
       );
     } else if (email === "marcelomoraes@fpr.com.br" && senha === "123456") {
       return (
-        <S.Box>
-          <h2>Marcelo Administrador</h2>
-        </S.Box>
+        <>
+          <Container>
+            <S.Box>
+              <h2>Marcelo Administrador</h2>
+            </S.Box>
+            <S.Card>
+              <PostDelete />
+            </S.Card>
+          </Container>
+        </>
       );
     } else {
-      console.log("Não existe esse usuario");
+      ("Não existe esse usuario");
     }
   };
 
@@ -42,9 +49,6 @@ export default function Cadastro() {
           <ButtonLogout />
           {users()}
         </S.SectionButton>
-        <S.Card>
-          <PostDelete />
-        </S.Card>
       </Container>
     </>
   );

@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const ContButton = styled.div`
-  margin: 0 0 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 `;
 
 export const Button = styled.a`
-  border: 0px;
+  border: 1px;
   border-radius: 32px;
   padding: 7px 7px;
   margin-bottom: 10px;

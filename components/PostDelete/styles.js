@@ -1,9 +1,13 @@
 import styled from "styled-components";
 
+
+export const BoxTitle = styled.div`
+width: 100%;
+`
+
 export const Title = styled.h2`
   text-align: center;
   background: rgb(190, 144, 74);
-  width: 100%;
   padding: 20px;
   border: 2px solid dashed #000000;
 `;

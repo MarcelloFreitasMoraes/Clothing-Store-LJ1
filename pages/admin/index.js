@@ -20,7 +20,7 @@ export default function Login() {
   return (
     <Container>
     <S.Contant>
-      <h1>Login</h1><br />
+      <h1>Login Administrador</h1><br />
       <label>Usuario</label>
       <S.Input onChange={(e) => setUsuario(e.target.value)} />
 
