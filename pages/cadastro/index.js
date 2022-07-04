@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Container } from "../../components/Container";
 import { ButtonLogout } from "../../components/ButtonLogout";
 import * as S from "./styles";
-import PostDelete from "../../components/PostDelete";
+import Post from "../../components/Post";
 
 export default function Cadastro() {
   const [email, setEmail] = useState();
@@ -32,7 +32,7 @@ export default function Cadastro() {
               <h2>Marcelo Administrador</h2>
             </S.Box>
             <S.Card>
-              <PostDelete />
+              <Post/>
             </S.Card>
           </Container>
         </>

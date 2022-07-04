@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Container } from "../../components/Container";
+import { Container } from "../Container";
 import axios from "axios";
 import * as S from "./styles";
 
-export default function PostDelete() {
+export default function Post() {
   const [resposta, setResposta] = useState();
   const [imagem, setImagem] = useState();
   const [valor, setValor] = useState();
