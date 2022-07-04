@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import * as S from "./styles";
+import * as S from "../../styles/feminine.styles";
 import axios from "axios";
 import { ProdutosWomen } from "../../components/Produtoswomen";
 import { ButtonComprar } from "../../components/Button";

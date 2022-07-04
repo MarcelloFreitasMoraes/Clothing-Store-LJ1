@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Container } from "../../components/Container";
 import { ButtonLogout } from "../../components/ButtonLogout";
-import * as S from "./styles";
-import Post from "../../components/Post";
+import * as S from "../../styles/cadastro.styles";
+import PostDelete from "../../components/PostDelete";
+import { useRouter } from "next/router";
 
 export default function Cadastro() {
   const [email, setEmail] = useState();
@@ -12,7 +13,7 @@ export default function Cadastro() {
     if (typeof window !== "undefined") {
       setEmail(localStorage.getItem("usuario"));
       setSenha(localStorage.getItem("senha"));
-      
+
     }
   }, []);
 
@@ -23,8 +24,8 @@ export default function Cadastro() {
           <h2>Felipe Administrador</h2>
         </S.Box>
       );
-    } else if (email === "marcelomoraes@fpr.com.br" && senha === "123456") {
-      
+    } else if (email === "marcelomoraes@fpr.com.br" && senha === "48246188") {
+
       return (
         <>
           <Container>
@@ -32,17 +33,18 @@ export default function Cadastro() {
               <h2>Marcelo Administrador</h2>
             </S.Box>
             <S.Card>
-              <Post/>
+              <PostDelete />
             </S.Card>
           </Container>
         </>
       );
-    } else {
-        if (typeof window !== "undefined") {
-window.location.href='/admin'
-          
-  };
-}
+    } else 
+    {
+      // if (typeof window !== "undefined") {
+      //   window.location.href = '/admin'
+
+      // };
+    }
   }
 
   return (

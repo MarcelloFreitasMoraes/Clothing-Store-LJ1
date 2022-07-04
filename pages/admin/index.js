@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Container } from "../../components/Container";
-import * as S from "./styles";
+import * as S from "../../styles/admin.styles";
 
 export default function Login() {
   const [usuario, setUsuario] = useState()
@@ -9,7 +9,7 @@ export default function Login() {
   
   const entrar = () => {
     if((usuario === 'felipepaulino@fpr.com.br' && senha === '1234567') || 
-    (usuario === 'marcelomoraes@fpr.com.br' && senha === '123456')) {
+    (usuario === 'marcelomoraes@fpr.com.br' && senha === '48246188')) {
     localStorage.setItem('usuario', usuario)
     localStorage.setItem('senha', senha)
     window.location.href = '/cadastro'

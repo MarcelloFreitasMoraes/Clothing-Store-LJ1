@@ -3,7 +3,7 @@ import { Container } from "../Container";
 import axios from "axios";
 import * as S from "./styles";
 
-export default function Post() {
+export default function PostDelete() {
   const [resposta, setResposta] = useState();
   const [imagem, setImagem] = useState();
   const [valor, setValor] = useState();
