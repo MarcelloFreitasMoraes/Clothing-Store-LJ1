@@ -14,7 +14,7 @@ export const ButtonLogout = () => {
   return (
     <Container>
       <S.ContButton>
-        <S.Button href="/admin" onClick={() => deletar()}>LOGOUT</S.Button>
+        <S.Button href="/admin" onClick={() => deletar()}>VOLTAR</S.Button>
       </S.ContButton>
     </Container>
   );
