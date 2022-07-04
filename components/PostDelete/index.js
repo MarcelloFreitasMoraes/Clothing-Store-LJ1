@@ -40,10 +40,10 @@ export default function PostDelete() {
   };
 
   const deletar = (id) => {
+    console.log(id, 'id')
     axios
       .delete(
-        `https://clothing-store2022-default-rtdb.firebaseio.com/femininas${id}.json/`,
-        {}
+        `https://clothing-store2022-default-rtdb.firebaseio.com/femininas/${id}.json`
       )
       .then(() => {
         alert("roupa excluida");
@@ -58,17 +58,17 @@ export default function PostDelete() {
         <S.Title>Lista de Roupas</S.Title>
         <S.Card>
           {resposta &&
-            Object.values(resposta).map((item, index) => {
+            Object.entries(resposta).map((item, index) => {
               return (
                 <>
                   <div key={index}>
                     <S.BoxCard>
                       <S.WidImg>
-                        <S.Imag src={item.img} />
+                        <S.Imag src={item[1].img} />
                       </S.WidImg>
-                      <p>{item.roupa}</p>
-                      <p>{item.valor}</p>
-                      <p>{item.categoria}</p>
+                      <p>{item[1].roupa}</p>
+                      <p>{item[1].valor}</p>
+                      <p>{item[1].categoria}</p>
                       <S.Button onClick={() => deletar(item[0])}>
                         Excluir
                       </S.Button>
