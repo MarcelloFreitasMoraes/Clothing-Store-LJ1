@@ -21,13 +21,13 @@ export default function Cadastro() {
     if (email === "felipepaulino@fpr.com.br" && senha === "1234567") {
       return (
         <S.Box>
-          <h2>Felipe Admin</h2>
+          <h2>Felipe Administrador</h2>
         </S.Box>
       );
     } else if (email === "marcelomoraes@fpr.com.br" && senha === "123456") {
       return (
         <S.Box>
-          <h2>Marcelo Admin</h2>
+          <h2>Marcelo Administrador</h2>
         </S.Box>
       );
     } else {
