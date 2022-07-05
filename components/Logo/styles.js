@@ -8,3 +8,4 @@ export const Logo = styled.div`
 export const Img = styled.img`
   width: 220px;
 `;
+export const Link = styled.a``
